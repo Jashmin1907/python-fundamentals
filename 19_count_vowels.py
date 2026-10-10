@@ -1,0 +1,9 @@
+# Count vowels in text
+text = input("Enter text: ").lower()
+count = 0
+
+for char in text:
+    if char in "aeiou":
+        count += 1
+
+print("Vowel count:", count)
